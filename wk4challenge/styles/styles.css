@@ -1,0 +1,93 @@
+body { 
+    background-color: steelblue;
+    color: white;
+    color: black;
+}
+
+
+nav {
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    background-color: steelblue;
+    color: black;
+    padding: 20px;
+    }
+a:hover {
+    background-color: steelblue;
+    color: black;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    font-size: 2em ;
+    text-align: center;
+    font-weight: bolder; 
+}
+
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.emphasize {
+    width: 40%;
+    display: block;
+    margin: 5px auto;
+    text-align: left;
+    font-size: small;
+    font-weight: bolder;
+    
+}
+
+h1 {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: small;
+    padding: 10px;
+}
+
+h2 {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+}
+footer h3, h4 {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: small;
+    font-weight: bolder;
+    color: black;
+    
+}
+
+.main {
+    color: white;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.75em;
+    padding: 20px;
+}
+
+
+
+a {
+    font-size: 2em;
+}
+
