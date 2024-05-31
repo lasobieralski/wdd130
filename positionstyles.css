@@ -3,7 +3,7 @@
 .content1 {
   /* This is the parent of the activity 1 boxes. */
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 300px 300px;
     justify-items: center;
     gap: 20px;
 }
@@ -139,7 +139,7 @@
 }
 .red5 { 
   width: 100%; 
-  height: 100px; 
+  height: 90px; 
   background-color: red; 
 } 
 .green5 { 
@@ -158,7 +158,7 @@
 } 
 .blue5 {
   width: 100%; 
-  height: 100px; 
+  height: 90px; 
   background-color: blue;
   
 } 
