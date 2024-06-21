@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    padding: 5px 60% 5px 40%;
+  
+    
+      
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.time {
+    color:  rgb(90, 134, 214);
+    font-size: 12px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 14px;
+    color: grey;
+}
+
+footer {
+    background-color: rgb(90, 134, 214);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.btn {
+    border-top: 0;
+    
+    color: white;
+    padding: 10px 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(90, 134, 214);
+    overflow: hidden;   
+
+}
+
+.views, .comments {
+    border-top:  0;
+    border-right: 0;
+    border-bottom: 0;
+    background-color: rgb(90, 134, 214);
+    border-color: grey;
+    font-size: 10px;
+    
+}
+
+.read {
+    border: none;
+    font-size: 10px;
+}
