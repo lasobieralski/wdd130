@@ -1,24 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
-body {
-    background-color: rgba(226, 43, 217, 0.616);
-    font-family: Roboto Condensed, Helvetica, sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
- }
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
-}
-
-header {
-    background-color: rgba(168, 207, 214, 0.616);
-    font-family: Montserrat, Georgia, 'Times New Roman', Times, serif;
-    display: grid;
-    grid-template-columns: 150px auto;
-    
 }
 
 #logo_link {
@@ -29,19 +14,22 @@ header {
 
 .logo {
     width: 100px;
+    border: 10px solid black;
 }
 
-section .logo {
-    width: 300px;
-    height: 290px;
-    border: 10px solid black;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    margin-top: -5px;
-    margin-left: 115px;
-    margin-right: 115px;
-    margin-bottom: 0px;
-    
+body {
+    background-color: #da9794;
+    font-family: Handjet, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+ }
+
+header {
+    background-color: #788982;
+    font-family: "Handjet", sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav {
@@ -50,8 +38,8 @@ nav {
 }
 
 nav a:hover {
-    background-color: white;
-    color: blue;
+    background-color: #e9c2b3;
+    color: #273835;
 }
 
 nav a {
@@ -83,11 +71,11 @@ nav a {
     margin-top: 100px;
 }
 .home-title {
-    background-color: rgba(238, 77, 190, 0.616);
-    color: white;
-    font-family: Montserrat, Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
-    margin-top: 10px;
+    background-color: #da9794;
+    color: #273835;
+    font-family: Handjet, sans-serif;
+    font-size: 3em;
+    margin-top: 150px;
 }
 
 #beach-msg h1, #beach-msg h4 {
@@ -95,8 +83,8 @@ nav a {
 }
 
 h4 {
-    color: blue;
-    font-size: 30px;
+    color: black;
+    font-size: 2em;
 }
 
 .button-box {
@@ -104,18 +92,18 @@ h4 {
 }
 
 .book, .join {
-    background-color: white;
-    color: blueviolet;
+    background-color: #e9c2b3;
+    color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     padding: 15px 30px;
     margin-top: 50px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .book:hover, .join:hover {
-    background-color: blue;
-    color: rgb(240, 241, 245);
+    background-color: #273835;
+    color: #c59f94;
 }
 
 main section img {
@@ -124,44 +112,55 @@ main section img {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 h2 {
     margin: 0;
 }
 
-.card-img {
+.card-img, .sewing {
     border: 10px solid black;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.card-img:hover {
+.card-img:hover, .sewing:hover {
     opacity: .6;
     transform: scale(1.1);
 }
 
 .notions-card {
-    margin-left: 115px;
+    margin: 0;
+    margin-left: 100px;
 }
 
-.logo-card {
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 1/2;
+.sewing {
+    width: 300px;
+    height: 290px;
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-bottom: 0;
+    
 }
+
 
 .dream-card {
     display: grid;
     grid-column: 3/4;
     grid-row: 1/2;
- 
+    margin: 0;
+    margin-right: 100px;
+  
 }
 
 #background {
     height: 725px;
-    background-color: rgba(159, 43, 226, 0.616);
+    background-color: #273835;
     grid-column: 1/11;
     grid-row: 4/9;
     z-index: -1;
@@ -178,7 +177,7 @@ h2 {
 }
 
 .msg {
-    background-color: rgba(143, 221, 235, 0.616);
+    background-color: rgba(187, 211, 209, 0.616);
     line-height: 1.5em;
     padding: 80px;
     max-width: 1600px;
@@ -191,8 +190,8 @@ h2 {
 }
 
 .msg h3 {
-    color: blue;
-    font-family: Montserrat, Georgia, 'Times New Roman', Times, serif;
+    color: #273835;
+    font-family: Handjet, sans-serif;
     text-align: center;
     
 }
@@ -206,7 +205,7 @@ h2 {
 }
 
 footer {
-    background-color: rgba(43, 226, 156, 0.616);
+    background-color: #788982;
     color: black;
     font-size: 1.2em;
     padding: 25px 50px;
@@ -217,12 +216,12 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: #e9c2b3;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: blue;
+    color: #273835;
     text-decoration: underline;
 }
 
@@ -233,7 +232,7 @@ footer .social img {
 /* this is the start of css for about page */
 div #info h2 {
     display: grid;
-    grid-template-columns: 10, 1fr;
+    grid-template-columns: repeat(10, 1fr);
     grid-column: 1/11;
     margin: 0;
     font-size: 20px;
