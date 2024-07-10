@@ -231,49 +231,90 @@ footer .social img {
 
 /* this is the start of css for about page */
 div #info h2 {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-column: 1/11;
-    margin: 0;
-    font-size: 20px;
+    font-size: 40px;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
-.quilt-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1600px;
+.quilt-card h2 {
+    margin-left: 275px;
+
+ }
+.quilt-img {
+    width: 350px;
+    height: 400px;
     margin-top: 50px;
-    
+    margin-bottom: 50px;
+    border: 10px solid black;
 }
 
-.quilt-card {
-    display: grid;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    max-width: 400px;
-    
+.wedding-img {
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 50px;
+    border: 10px solid black;
 }
 
-.wedding-card {
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    max-width: 400px;
-    
-}
-
-.summer-card {
-    display: grid;
-    grid-column: 3/4;
-    grid-row: 1/2;
-    max-width: 400px;
+.summer-img {
+    width: 350px;
+    height: 400px;
+    margin: 50px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-left: 100px;
+    border: 10px solid black;
 }
 
 /* this is the start of css for services page */
 
+div #info-services p {
+    font-size: 40px;
+    color: #273835;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+div #info-services h2 {
+    font-size: 40px;
+    background-color:#788982 ;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.apron {
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid black;
+}
+
+.puppies {
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 50px;
+    border: 10px solid black;
+}
+
+.quilting {
+    width: 400px;
+    height: 500px;
+    margin: 50px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-left: 100px;
+    border: 10px solid black;
+}
 
 /* this is the contactme css. */
 body {
@@ -286,10 +327,11 @@ body {
 form {
     display: inline-block;
     /* Form outline */
-    padding: 1em;
+    padding: 2em;
     border: 1px solid #ccc;
     border-radius: 1em;
     margin-top: 50px;
+    background-color: #788982;
 }
   
 ul {
