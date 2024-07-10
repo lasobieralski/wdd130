@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
     <div id="content">
         <header>
             <a id="logo_link" href="sewing.html" >  
-                <img class="logo" src="images/Logo 1.png" alt="logo image">
+                <img class="logo" src="images/Logo_1.png" alt="logo image">
             </a>
             <nav>
                 <a href="sewing.html">Home</a>
@@ -20,25 +20,26 @@
                 <a href="contactme.html">Contact Us</a>
             </nav>
         </header>
+    </div>    
         <main>
             <div id="feedback"></div>
             <form action="/my-handling-form-page" method="post">
                 <ul>
                     <li>
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name" />
+                        <input type="text" id="name" name="username">
                     </li>
                     <li>
                         <label for="phone">Phone:</label>
-                        <input type="phone" id="phone number" name="phone_number" />
+                        <input type="text" id="phone" name="phone">
                     </li>
                     <li>
                         <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_mail" />
+                        <input type="email" id="mail" Name="usermail">
                     </li>
                     <li>
                         <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
+                        <textarea id="msg" Name="usermessage"></textarea>
                     </li>
                     <li class="button">
                         <button type="submit">Send your message</button>
@@ -56,7 +57,7 @@
                 </a>
             </div>
         </footer>
-    </div>
+    
     <script>
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
