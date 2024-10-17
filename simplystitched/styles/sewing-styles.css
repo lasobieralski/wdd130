@@ -79,12 +79,12 @@ nav a {
     margin-top: 150px;
 }
 
-#beach-msg h1, #beach-msg h4 {
+#beach-msg h1, #beach-msg #h4 {
     text-align: center;
 }
 
-h4 {
-    color: black;
+#h4 {
+    color: white;
     font-size: 2em;
 }
 
@@ -202,7 +202,7 @@ h2 {
 
 footer {
     background-color: #788982;
-    color: black;
+    color: white;
     font-size: 1.2em;
     padding: 25px 50px;
     margin-top: 200px;
@@ -212,7 +212,7 @@ footer {
 }
 
 footer a {
-    color: #e9c2b3;
+    color: white;
     text-decoration: none;
 }
 
